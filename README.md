@@ -1,1 +1,1 @@
-# fotomatic is one of Codecademy's project. I was asked to make to it responsive by applying media query for enure responsivess for different devices. As I was asked to apply different design for destop, tablet and mobile as well. 
+# fotomatic is one of Codecademy's projects. I was asked to make it responsive by applying media queries to ensure responsiveness for different devices. I was also asked to apply different designs for desktop, tablet, and mobile. 
