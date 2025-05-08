@@ -1,0 +1,489 @@
+/*Universal Styles */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  body{
+    background-color: #cccbcb;
+  }
+  /*Navigation Bar*/
+
+.header{
+    position: relative;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    height: auto;
+
+   
+}
+.flex-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.875rem;
+}
+.logo{
+    color: #4a4a4a;
+    font-size: 24px;
+    font-family: Roboto-mono-regular;
+    margin-left: 30px;
+}
+.desktop  a{
+    color: #4a4a4a;
+    font-size: 16px;
+    font-family: Roboto-mono-regular;
+    line-height: 1.6;
+    padding-left: 3.5rem;
+    text-decoration: none;  
+}
+.icon{
+    margin-left: 30px;
+    vertical-align: middle;
+    
+}
+
+    .mobile .join-button{
+        display: block;
+        padding: 10px;
+        width: 100px;
+        height: auto;
+        text-align: center;
+        
+    }
+    .flex-content{
+        padding: .5rem 0;
+        margin: 0 1rem;
+        justify-content: space-between;
+    }
+  
+    .mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+    }
+
+    .mobile a{
+    color: #4a4a4a;
+    font-size: 16px;
+    font-family: Roboto-mono-regular;
+    line-height: 1.6;
+    padding-left: 3.5rem;
+    text-decoration: none;  
+    position: relative; 
+  
+}
+
+    nav .join-button{
+    background-color: #9DC20B;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: Roboto-mono-regular;
+    border-color: white;
+    margin-left: 30px;
+      
+}
+.tablet .join-button{
+  text-decoration: none;
+}
+
+
+   
+
+/*Hero Section*/
+.banner{
+    background-image: url("/Resources/images/banner-landingpage.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    max-width: 100%;
+    height: 43.5rem;
+    justify-content: center;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    flex: 1;
+
+
+}
+    #sign-up-section{
+    border:1px solid #979797;
+    background-color: #9DC20B;
+    border-radius: 4px;
+    position: relative;  
+    top: 171px;
+    left: 10%;
+    padding: 0 5rem 2.5rem 5rem;
+    height: auto;
+    max-width: 40%;
+    margin-right: 100px;
+  
+      
+         
+}
+    #sign-up-section .content {
+    width: 25.625rem;
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: white;
+    text-align: center;
+    
+ }
+
+ #sign-up-section .cursive {
+   font-family: "Damion", cursive;
+   font-size: 2.5rem;
+   text-align: center;
+   padding-top: 32px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+ #sign-up-section .rubik{
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 0;
+
+     
+ }
+   #sign-up-section span{
+    font-family: Roboto-regular;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 23px;
+    
+    
+   }
+   button {
+    background-color: #4a4a4a;
+    border-radius: 4px;
+    width: 408px;
+    height: 64px;
+    color: white;
+    font-family: Roboto-medium, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    border: none;
+    margin-top: 26px;
+    margin-bottom: 30px;
+    
+   }
+   .mobile-banner{
+    background-image: url("/Resources/images/banner-landingpage.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    max-width: 100%;
+    height: 43.5rem;
+    justify-content: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
+   }
+     .mobile-content .cursive{
+    font-family: "Damion", cursive;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 32px;
+     font-weight: 300;
+     color: white;
+     top: 100px;
+
+     
+     
+   }
+   .mobile-content .rubik{
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+   
+   }
+
+   /*Feature Section*/
+    .flex-container{
+    display: flex;
+    justify-content: center;
+    padding: 4rem 5%;
+    
+   }
+ 
+  .image-container{
+    width: 90%;
+    height: 65%;
+    margin: 0 auto;
+    display: inline-flex;
+  }
+    .flex-items figure {
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        height: 600px;
+        padding: 2rem; 
+        margin-bottom: 46px;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+        max-height: 635px;
+         
+    }
+    .flex-items figure img {
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 20px;
+       
+
+    }
+      figcaption {
+        font-family: Roboto-bold, sans-serif;
+        color: #4a4a4a;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+      }
+        figure p {
+            font-family: Roboto-light, sans-serif;
+            color: #4a4a4a;
+            font-size: 16px;
+            line-height: 1.2;
+            text-align: center;
+            margin-top: 10px;
+            
+        }
+        /*Experience Section*/
+          .experience-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #4a4a4a;
+            margin-bottom: 32px;
+            flex-direction: column;
+            padding: 40px 20px;
+
+          }
+            .experience-container h2 {
+             font-family: Roboto-bold, sans-serif;
+             color: white;
+             font-size: 36px;
+             opacity: 1;
+             width: 100%;
+             text-align: center; 
+             margin-bottom: 20px;
+            }
+            .experience-container p{
+                font-family: Roboto-light, sans-serif;
+                color: white;
+                font-size: 16px;
+                line-height: 1.4;
+                margin-bottom: 80px;
+                
+            }
+          .flex-box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap; 
+            margin-bottom: 64px;
+          }
+
+          /*Quote Section*/
+          .quote-section{
+            background-color: #cecccc;
+            line-height: 200px;
+            height: 200px;
+            text-align: center; 
+          }
+          .quote-section q{
+            text-align: center;
+            color: #4a4a4a;
+            font-family: Palatino-italic, sans-serif;
+            font-size: 30px;
+            font-style: italic;
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle; 
+            padding: 30px;
+          }
+           .quote-section img{
+            display: inline-block;
+            vertical-align: middle;
+            right: 20px;
+            bottom: 20px;
+           }
+
+           /*Footer Section*/
+              footer{
+                background-color: #9b9b9b;
+                height: 62px;
+                width: 100%;
+                font-family: Roboto-regular, sans-serif;
+                font-size: 12px;
+                color: white;
+              }
+                
+              .copyright{
+                text-align: left;
+                margin-left: 32px;
+                padding-top: 20px;
+                font-size: 12px; 
+                float: left;   
+                
+              }
+              .location{
+                float: right;
+                margin-right: 32px;
+                padding-top: 20px;
+                font-size: 12px;
+                text-align: right;
+                
+              }
+              /*Media Queries*/
+
+              /* Mobile Styles */
+              @media only screen  and (max-width: 600px) {
+                .desktop{
+                  display: none;
+                }
+                .flex-content h1{
+                  display: none;
+                }
+                .mobile .join-button{
+                  padding: 3px 8px;
+                  border-radius: 4px;
+                  margin-right: 0;
+                
+                }
+                .mobile .logo{
+                  margin-left: 0;
+                  float: left;
+                  padding-left: 0;
+                }
+              
+                #sign-up-section{
+                 display: none;
+                }
+                .banner{
+                  display: none;
+                }
+                .tablet{
+                  display: none;
+                }
+                .image-container{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  max-width: 100%;
+                  margin-bottom: 0;
+                  padding-bottom: 0;
+
+                }
+                .mobile-banner{
+                  max-width: 100%;
+                }
+                figcaption{
+                  font-size: 24px;
+                  font-weight: bold;
+                }
+                figcaption p{
+                  font-size: 14px;
+                  line-height: 1.4;
+                }
+                .experience-container{
+                  display: flex;
+                  justify-content: center;
+                  max-width: 100%;
+                  margin-top: 0;
+
+                }
+                .experience-container h2{
+                  font-size: 24px;
+                  line-height: 1.2;
+                  text-align: center;
+                }
+                .experience-container p{
+                  font-size: 14px;
+                  line-height: 1.4;
+                  text-align: center;
+                }
+                .flex-box{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-wrap: wrap; 
+                  margin-top: auto;
+                  
+                }
+                .quote-content{
+                  display: flex;
+                  flex-wrap: wrap;
+                  align-items: center;
+                  justify-content: center;
+                }
+                .quote-section q{
+                  font-size: 24px;
+                  line-height: 1.4;
+                 
+                }
+                .copyright{
+                  font-size: 12px;
+                }
+                .location{
+                  font-size: 12px;
+                }
+          
+              }
+             
+              
+               /* Tablet Styles */
+               @media only screen and (min-width:601px) and (max-width:899px){
+                .mobile{
+                  display: none;
+                }
+                #sign-up-section{
+                  display: none;
+                }
+                .banner{
+                  display: none;
+                }
+               }
+               /* Desktop Styles */
+                @media only screen and (min-width: 900px){
+               .mobile{
+                display: none;
+               }
+               .tablet{
+                display: none;
+               }
+               .mobile-banner{
+                display: none;
+               }
+              }
+                 
+              
+              
+              
+
+
+           
