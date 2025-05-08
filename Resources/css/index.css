@@ -97,7 +97,7 @@
 
 /*Hero Section*/
 .banner{
-    background-image: url("/Resources/images/banner-landingpage.jpg");
+    background-image: url("Resources/images/banner-landingpage.jpg");
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -185,7 +185,7 @@
     
    }
    .mobile-banner{
-    background-image: url("/Resources/images/banner-landingpage.jpg");
+    background-image: url("Resources/images/banner-landingpage.jpg");
     background-size: cover;
     background-position: bottom;
     display: flex;
